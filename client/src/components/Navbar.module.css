@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  background-color: rgb(236, 236, 236);
+  height: 60px;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 8%;
+  gap: 35px;
+  align-items: center;
+}
+li {
+  font-size: 20px;
+}
+ul li:first-child {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(42, 70, 70);
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
